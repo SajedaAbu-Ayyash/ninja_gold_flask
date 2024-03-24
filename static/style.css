@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .div-1 {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .div-2 {
+    margin: 20px;
+    padding: 20px;
+    width: calc(25% - 40px);
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .div-2 h3 {
+    margin-top: 0;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .activities {
+    margin: 20px;
+    border: 1px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .green {
+    color: lightgreen;
+  }
+
+  .red {
+    color: red;
+  }
